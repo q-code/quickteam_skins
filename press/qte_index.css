@@ -1,38 +1,29 @@
 div.dom-sep {height:15px}
 
-/* ============= */
-/* Table Section (used in qte_index and qte_search) */
-/* ============= */
-
-/* Common */
+/* Table Section (used in qtx_index and qtx_search) */
 
 table.t-sec {border-spacing:0}
 table.t-sec th,
 table.t-sec td {padding:4px;vertical-align:middle}
+
+table.t-sec {background-color:#ffffff}
+table.t-sec th {color:#ffffff;background-color:#ff9933}
+table.t-sec td {border-bottom:solid 1px #eeeeee}
 table.t-sec th.c-icon,
-table.t-sec td.c-icon {width:40px;text-align:center}
+table.t-sec td.c-icon {width:40px}
+table.t-sec th.c-logo,
+table.t-sec td.c-logo {width:120px} /*image setting are in qtx_layout*/
+table.t-sec th.c-items,
+table.t-sec td.c-items {width:70px;text-align:center}
 
-/* Index */
-
-div.pg-index table.t-sec {background-color:#ffffff}
-div.pg-index table.t-sec th {color:#ffffff;background-color:#ff9933}
-div.pg-index table.t-sec td {padding:3px 4px;border-bottom:solid 1px #eeeeee}
-div.pg-index table.t-sec th.c-logo,
-div.pg-index table.t-sec td.c-logo {width:120px;text-align:center}
-div.pg-index table.t-sec th.c-items,
-div.pg-index table.t-sec td.c-items {width:70px;text-align:center}
-
-div.pg-index table.t-sec th {font-size:9pt;font-weight:bold}
-div.pg-index table.t-sec th a {font-size:9pt;font-weight:bold;text-decoration:none}
-div.pg-index table.t-sec td a {font-size:9pt}
+table.t-sec th {font-size:9pt;font-weight:bold}
+table.t-sec th a {font-size:9pt;font-weight:bold;text-decoration:none}
+table.t-sec td a {font-size:9pt}
 
 p.section, 
 p.sectiondesc {margin:3px 0;padding:0}
 p.section a.section {font-size:11pt;font-weight:bold}
 p.section a.section:hover {text-decoration:underline}
-
-
-td.c-logo img, td.c-icon img {display:block}
 
 /* compact table */
 

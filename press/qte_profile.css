@@ -37,8 +37,8 @@ p.save {margin:10px 0 5px 0;text-align:center}
 table.t-data.section th {padding:4px;vertical-align:middle;min-height:8px;color:#000000;background-color:#f4f4f4;font-size:8pt;font-weight:bold}
 table.t-data.section td {padding:4px 4px 4px 15px}
 
-  img.sectioninfo-left {float:left; margin-right:10px}
-  img.sectioninfo-right {float:right; margin-left:10px;max-height:75px}
+  img.sectioninfo-left {float:left; margin:5px 5px 5px 10px; max-height:75px; padding:10px; border:solid 1px #f0f0f0}
+  img.sectioninfo-right {float:right; margin:5px 10px 5px 5px; max-height:75px; padding:10px; border:solid 1px #f0f0f0}
   p.sectioninfo {margin:2px 0 10px 0; font-size:12pt; font-weight:bold; font-style:italic; color:#444444}
   p.sectiondesc {margin:0 0 10px 0;font-size:9pt; font-weight:bold; font-style:italic; color:#444444}
 
